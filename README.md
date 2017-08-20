@@ -10,7 +10,7 @@ A standard Skype for Business / Cloud PBX configuration for Polycom phones.
 
 Download the [Skype PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366), then: 
 
-    $sfboSession = New-CsOnlineSession -UserName "nick@aldinetravel.com"
+    $sfboSession = New-CsOnlineSession -UserName "user@example.com"
     Import-PSSession $sfboSession
     Set-CsIPPhonePolicy -LocalProvisioningServerAddress semenko.github.io/skype-polycom-config -LocalProvisioningServerType HTTPS
 
