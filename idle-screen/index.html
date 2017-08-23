@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Polycom Idle Screen</title>
+    <title>Polycom Idle Screen (Size: 240x158)</title>
     <style>
         @font-face {
             font-family: 'weather';
@@ -21,6 +21,10 @@
             min-width: 100%;
             min-height: 100%;
             background: #1192d3;
+            background-image: url('arch1.jpg');
+            background-size: 320px;
+            background-repeat: no-repeat;
+
         }
 
         body {
@@ -249,6 +253,15 @@
             text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
         }
 
+        #weather p{
+            background: #fff;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 3px;
+            display: inline-block;
+            border-radius: 5px;
+            margin: 6px;
+        }
+
         #weather ul {
             margin: 0;
             padding: 0;
@@ -264,7 +277,7 @@
 
         #weather li {
             background: #fff;
-            background: rgba(255, 255, 255, 0.90);
+            background: rgba(255, 255, 255, 0.9);
             padding: 5px;
             display: inline-block;
             border-radius: 5px;
@@ -276,7 +289,7 @@
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
     <script>
         // v3.1.0
         //Docs at http://simpleweatherjs.com
@@ -299,7 +312,7 @@
                             var timestamp = moment(weather.updated);
                             // html += '<p>Weather updated ' + moment(timestamp).fromNow() + '</p>';
 
-                            html += '<p>Weather updated at ' + moment(timestamp).format('MM/DD/YY h:mma') + '</p>';
+                            html += '<p>Updated at ' + moment(timestamp).format('MM/DD/YY h:mma') + '</p>';
 
                             $("#weather").html(html);
                         },

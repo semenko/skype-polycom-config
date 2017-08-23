@@ -13,6 +13,7 @@ These settings are all detailed in two places:
 
 There's also some inspiration from [this respository](https://github.com/spmiddlebrooks/Polycom-VVX-Config/).
 
+The shared directory information (000000000000-directory.xml) is [detailed here](http://community.polycom.com/t5/VoIP/FAQ-How-can-I-create-a-local-directory-or-what-is-the/td-p/8216).
 
 # How to Deploy
 I auto-deploy this configuration using *both* DHCP and also the Skype for Business / PowerShell route.
