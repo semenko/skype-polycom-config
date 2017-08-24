@@ -15,6 +15,12 @@ There's also some inspiration from [this respository](https://github.com/spmiddl
 
 The shared directory information (000000000000-directory.xml) is [detailed here](http://community.polycom.com/t5/VoIP/FAQ-How-can-I-create-a-local-directory-or-what-is-the/td-p/8216).
 
+# What's the license file?
+
+The license is a *free* license from Polycom that enables Corporate Directory, Visual Conference Management, and USB Call Recording (it expires on 15th March 2022).
+
+This is well described & provided for free on the [Polycom Local Directory FAQ page](http://community.polycom.com/t5/VoIP/FAQ-How-can-I-create-a-local-directory-or-what-is-the/td-p/8216).
+
 # How to Deploy
 I auto-deploy this configuration using *both* DHCP and also the Skype for Business / PowerShell route.
 
