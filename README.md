@@ -17,7 +17,9 @@ The shared directory information (000000000000-directory.xml) is [detailed here]
 
 # What's the license file?
 
-The license is a *free* license from Polycom that enables Corporate Directory, Visual Conference Management, and USB Call Recording (it expires on 15th March 2022).
+It's not clear this is actually needed in recent OS versions, but it's included here for older devices/software revisions.
+
+However, the license is a *free* license from Polycom that enables Corporate Directory, Visual Conference Management, and USB Call Recording (it expires on 15th March 2022).
 
 This is well described & provided for free on the [Polycom Local Directory FAQ page](http://community.polycom.com/t5/VoIP/FAQ-How-can-I-create-a-local-directory-or-what-is-the/td-p/8216).
 
