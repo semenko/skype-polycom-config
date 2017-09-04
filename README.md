@@ -1,5 +1,5 @@
 # skype-polycom-config
-This is an optimied Skype for Business /  Cloud PBX configuration for Polycom VVX phones.
+This is an optimized Skype for Business /  Cloud PBX configuration for Polycom VVX phones.
 
 You should use this only as an example for your business (do *not* directly point your phones here; it'll use our PaperTrail logging, etc.).
 
